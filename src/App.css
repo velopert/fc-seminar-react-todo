@@ -1,0 +1,27 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  box-shadow: 0px 20px 150px #809baf;
+}
+
+.App .header {
+  background: #3bc9db;
+  color: white;
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.App .header h1 {
+  margin: 0;
+  text-align: center;
+  font-weight: 300;
+}
+
+.App .white-box {
+  background: white;
+  padding: 2rem;
+  min-height: 8rem;
+  max-height: 25rem;
+  overflow-y: auto;
+}

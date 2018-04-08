@@ -1,0 +1,50 @@
+.TodoItem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+  cursor: pointer;
+}
+
+.TodoItem + .TodoItem {
+  border-top: 1px solid #e9ecef;
+}
+.TodoItem .check {
+  font-size: 1.25rem;
+  color: #dee2e6;
+  opacity: 0;
+}
+
+.TodoItem:hover .check {
+  opacity: 1;
+}
+
+.TodoItem.active .check {
+  opacity: 1;
+  color: #22b8cf;
+}
+
+.TodoItem.active .text {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
+
+.TodoItem .text {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.TodoItem .remove {
+  color: #ff6b6b;
+  opacity: 0;
+}
+
+.TodoItem .remove:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.TodoItem:hover .remove {
+  opacity: 1;
+}

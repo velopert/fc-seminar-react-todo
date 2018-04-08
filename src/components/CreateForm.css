@@ -1,0 +1,38 @@
+.CreateForm {
+  padding: 2rem;
+  background: #343a40;
+  display: flex;
+}
+
+.CreateForm input {
+  /* 스타일 초기화 */
+  background: transparent;
+  border: none;
+  outline: none;
+
+  flex: 1;
+  border-bottom: 1px solid #e9ecef;
+  color: white;
+  font-size: 1.25rem;
+}
+.CreateForm input::placeholder {
+  color: #adb5bd;
+}
+
+.CreateForm button {
+  /* 스타일 초기화 */
+  background: transparent;
+  border: none;
+  outline: none;
+
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.CreateForm button:hover {
+  background: #f1f3f5;
+}
